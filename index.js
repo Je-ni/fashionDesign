@@ -1,6 +1,16 @@
 $(document).ready(function() {
     $(".app").hide();
-    $('#button').hide();
+    $('#button').click(function() {
+
+        postInfo()
+
+
+    });
+
+
+});
+
+function getInfo() {
     $.ajax({
         type: 'GET',
         url: 'http://localhost:3000/category',
@@ -27,15 +37,15 @@ $(document).ready(function() {
 
         }
     });
-    $('#button').click(function() {
-        $.ajax({
-            type: 'POST',
-            URL: 'http://localhost:3000/category',
-            dataType: "JSON",
-            data: JSON.stringify({ "name": $("#name").val(), "type": $("#type").val(), "image": $("#image").val(), "description": $("#descript").val() }),
-            success: function(data, status) {
-                $(".app").append(inform);
-            }
-        });
-    });
-})
+};
+
+function postInfo() {
+    $.post('http://localhost:3000/category', { "name": $("#name").val(), "type": $("#type").val(), "image": $("#image").val(), "description": $("#descript").val() },
+        function(data, status) {
+            alert(status);
+            getInfo();
+
+        }
+    )
+
+}

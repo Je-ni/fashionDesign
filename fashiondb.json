@@ -1,45 +1,93 @@
 {
-    "category": [{
-            "id": 1,
-            "name": "Skirt for the ladies in house",
-            "type": "Cloth",
-            "cost": 6000,
-            "image": "images/image2.jpg",
-            "description": "Describing all about the cloth"
-        },
-        {
-            "id": 2,
-            "name": "Skirt for the ladies in house",
-            "type": "Cloth",
-            "cost": 4000,
-            "image": "images/image3.jpg",
-            "description": "Describing all about the cloth"
-        },
-        {
-            "id": 3,
-            "name": "Skirt for the ladies in house",
-            "type": "Cloth",
-            "cost": 5000,
-            "image": "images/image4.jpg",
-            "description": "Describing all about the cloth"
-        },
-        {
-            "id": 4,
-            "name": "Skirt for the ladies in house",
-            "type": "Cloth",
-            "cost": 5500,
-            "image": "images/image5.jpg",
-            "description": "Describing all about the cloth"
-        },
-        {
-            "id": 5,
-            "name": "Skirt for the ladies in house",
-            "type": "Cloth",
-            "cost": 5100,
-            "image": "images/image6.jpg",
-            "description": "Describing all about the cloth"
-        }
-
-
-    ]
+  "category": [
+    {
+      "id": 1,
+      "name": "Skirt for the ladies in house",
+      "type": "Cloth",
+      "cost": 6000,
+      "image": "images/image2.jpg",
+      "description": "Describing all about the cloth"
+    },
+    {
+      "id": 2,
+      "name": "Skirt for the ladies in house",
+      "type": "Cloth",
+      "cost": 4000,
+      "image": "images/image3.jpg",
+      "description": "Describing all about the cloth"
+    },
+    {
+      "id": 3,
+      "name": "Skirt for the ladies in house",
+      "type": "Cloth",
+      "cost": 5000,
+      "image": "images/image4.jpg",
+      "description": "Describing all about the cloth"
+    },
+    {
+      "id": 4,
+      "name": "Skirt for the ladies in house",
+      "type": "Cloth",
+      "cost": 5500,
+      "image": "images/image5.jpg",
+      "description": "Describing all about the cloth"
+    },
+    {
+      "id": 5,
+      "name": "Skirt for the ladies in house",
+      "type": "Cloth",
+      "cost": 5100,
+      "image": "images/image6.jpg",
+      "description": "Describing all about the cloth"
+    },
+    {
+      "name": "aaaadsdaa",
+      "type": "drfrgf",
+      "image": "nbgfdh",
+      "description": "nhgjfhd",
+      "id": 6
+    },
+    {
+      "name": "aaaadsdaa",
+      "type": "drfrgf",
+      "image": "nbgfdh",
+      "description": "nhgjfhd",
+      "id": 7
+    },
+    {
+      "name": "ffdfg",
+      "type": "drfrgf",
+      "image": "nbgfdh",
+      "description": "nhgjfhd",
+      "id": 8
+    },
+    {
+      "name": "syeiydo6f7gh",
+      "type": "drfrgf",
+      "image": "tryiuoio;j",
+      "description": "poiuuli",
+      "id": 9
+    },
+    {
+      "name": "syeiydo6f7gh",
+      "type": "drfrgf",
+      "image": "tryiuoio;j",
+      "description": "nhgjfhd",
+      "id": 10
+    },
+    {
+      "name": "syeiydo6f7gh",
+      "type": "drfrgf",
+      "image": "tryiuoio;j",
+      "description": "poiuuli",
+      "id": 11
+    },
+    {
+      "name": "syeiydo6f7gh",
+      "type": "drfrgf",
+      "image": "tryiuoio;j",
+      "description": "poiuuli",
+      "id": 12
+    }
+  ]
 }
